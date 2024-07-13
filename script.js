@@ -1,4 +1,5 @@
 let text1 = document.querySelectorAll(".code");
+text1[0].focus();
 text1.forEach((input, index) => {
     input.addEventListener("input", () => {
         if (input.value.length == 1) {
