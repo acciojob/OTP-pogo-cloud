@@ -6,6 +6,7 @@
                         text1[index + 1].focus();
                     }
                 }
+				console.log('input event triggered');
             });
             input.addEventListener("keydown", (event) => {
                 if (event.key == "Backspace" && input.value.length == 0) {
