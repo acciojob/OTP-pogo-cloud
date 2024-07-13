@@ -8,7 +8,7 @@
                 }
 				console.log('input event triggered');
             });
-            input.addEventListener("keydown", (event) => {
+            input.addEventListener("keyup", (event) => {
                 if (event.key == "Backspace" && input.value.length == 0) {
                     if (text1[index - 1]) {
                         text1[index - 1].focus();
